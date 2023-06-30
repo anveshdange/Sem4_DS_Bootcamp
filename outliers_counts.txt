@@ -1,0 +1,16 @@
+Count of Outliers in "age" is: 171
+Count of Outliers in "job" is: 0
+Count of Outliers in "marital" is: 0
+Count of Outliers in "education" is: 0
+Count of Outliers in "default" is: 168
+Count of Outliers in "balance" is: 1055
+Count of Outliers in "housing" is: 0
+Count of Outliers in "loan" is: 1460
+Count of Outliers in "contact" is: 0
+Count of Outliers in "day" is: 0
+Count of Outliers in "month" is: 0
+Count of Outliers in "duration" is: 636
+Count of Outliers in "campaign" is: 601
+Count of Outliers in "pdays" is: 2750
+Count of Outliers in "previous" is: 1258
+Count of Outliers in "poutcome" is: 1228
