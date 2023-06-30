@@ -1,0 +1,73 @@
+[2023-06-30 13:50:11,192]: Succesfully initiated data ingestion from "https://raw.githubusercontent.com/anveshdange/DS_Bootcamp/main/data/bank.csv"
+[2023-06-30 13:50:11,200]: Saved CSV File to: data/bank.csv
+[2023-06-30 13:50:11,448]: Successfully loaded dependent and independent variables
+[2023-06-30 13:50:11,467]: Printing the Dependent Variables
+[2023-06-30 13:50:11,482]: Printing the Independent Variables
+[2023-06-30 13:50:11,601]: Null Values in age are: 0
+[2023-06-30 13:50:11,602]: Null Values in job are: 0
+[2023-06-30 13:50:11,602]: Null Values in marital are: 0
+[2023-06-30 13:50:11,603]: Null Values in education are: 0
+[2023-06-30 13:50:11,603]: Null Values in default are: 0
+[2023-06-30 13:50:11,604]: Null Values in balance are: 0
+[2023-06-30 13:50:11,605]: Null Values in housing are: 0
+[2023-06-30 13:50:11,606]: Null Values in loan are: 0
+[2023-06-30 13:50:11,608]: Null Values in contact are: 0
+[2023-06-30 13:50:11,609]: Null Values in day are: 0
+[2023-06-30 13:50:11,610]: Null Values in month are: 0
+[2023-06-30 13:50:11,610]: Null Values in duration are: 0
+[2023-06-30 13:50:11,611]: Null Values in campaign are: 0
+[2023-06-30 13:50:11,612]: Null Values in pdays are: 0
+[2023-06-30 13:50:11,613]: Null Values in previous are: 0
+[2023-06-30 13:50:11,614]: Null Values in poutcome are: 0
+[2023-06-30 13:50:13,178]: Box Plot created for Outlier Detection
+[2023-06-30 13:50:13,452]: BoxPlot saved at: boxplot.png
+[2023-06-30 13:50:13,453]: Detecting Outliers in the Dataset
+[2023-06-30 13:50:13,459]: Count of Outliers in "age" is: 171
+[2023-06-30 13:50:13,465]: Count of Outliers in "job" is: 0
+[2023-06-30 13:50:13,470]: Count of Outliers in "marital" is: 0
+[2023-06-30 13:50:13,476]: Count of Outliers in "education" is: 0
+[2023-06-30 13:50:13,482]: Count of Outliers in "default" is: 168
+[2023-06-30 13:50:13,489]: Count of Outliers in "balance" is: 1055
+[2023-06-30 13:50:13,495]: Count of Outliers in "housing" is: 0
+[2023-06-30 13:50:13,500]: Count of Outliers in "loan" is: 1460
+[2023-06-30 13:50:13,506]: Count of Outliers in "contact" is: 0
+[2023-06-30 13:50:13,511]: Count of Outliers in "day" is: 0
+[2023-06-30 13:50:13,517]: Count of Outliers in "month" is: 0
+[2023-06-30 13:50:13,523]: Count of Outliers in "duration" is: 636
+[2023-06-30 13:50:13,529]: Count of Outliers in "campaign" is: 601
+[2023-06-30 13:50:13,535]: Count of Outliers in "pdays" is: 2750
+[2023-06-30 13:50:13,541]: Count of Outliers in "previous" is: 1258
+[2023-06-30 13:50:13,546]: Count of Outliers in "poutcome" is: 1228
+[2023-06-30 13:50:13,548]: Saved Outliers Counts of each column to : outliers_counts.txt
+[2023-06-30 13:50:13,548]: Handling outliers using the Floor and Cap Method
+[2023-06-30 13:50:13,562]: Outliers removed Successfully
+[2023-06-30 13:50:13,880]: Succesfully created folder for count plots at: count_plots
+[2023-06-30 13:50:13,886]: Generating Count Plot for : "deposit" column
+[2023-06-30 13:50:13,937]: Saving Count Plot : count_plots/deposit_count.png
+[2023-06-30 13:50:14,078]: Count plot saved at: "count_plots/deposit_count.png"
+[2023-06-30 13:50:14,384]: Succesfully initiated data ingestion from "https://raw.githubusercontent.com/anveshdange/DS_Bootcamp/main/data/bank.csv"
+[2023-06-30 13:50:14,385]: Saved CSV File to: data/bank.csv
+[2023-06-30 13:50:14,428]: Created Folder for Histplots at: histplots
+[2023-06-30 13:50:14,664]: Saved Histplot for "age" column at: histplots/age_histplot.png
+[2023-06-30 13:50:14,810]: Saved Histplot for "job" column at: histplots/job_histplot.png
+[2023-06-30 13:50:14,950]: Saved Histplot for "marital" column at: histplots/marital_histplot.png
+[2023-06-30 13:50:15,108]: Saved Histplot for "education" column at: histplots/education_histplot.png
+[2023-06-30 13:50:15,252]: Saved Histplot for "default" column at: histplots/default_histplot.png
+[2023-06-30 13:50:15,998]: Saved Histplot for "balance" column at: histplots/balance_histplot.png
+[2023-06-30 13:50:16,355]: Saved Histplot for "housing" column at: histplots/housing_histplot.png
+[2023-06-30 13:50:16,680]: Saved Histplot for "loan" column at: histplots/loan_histplot.png
+[2023-06-30 13:50:17,007]: Saved Histplot for "contact" column at: histplots/contact_histplot.png
+[2023-06-30 13:50:17,345]: Saved Histplot for "day" column at: histplots/day_histplot.png
+[2023-06-30 13:50:17,747]: Saved Histplot for "month" column at: histplots/month_histplot.png
+[2023-06-30 13:50:18,166]: Saved Histplot for "duration" column at: histplots/duration_histplot.png
+[2023-06-30 13:50:18,823]: Saved Histplot for "campaign" column at: histplots/campaign_histplot.png
+[2023-06-30 13:50:19,662]: Saved Histplot for "pdays" column at: histplots/pdays_histplot.png
+[2023-06-30 13:50:20,957]: Saved Histplot for "previous" column at: histplots/previous_histplot.png
+[2023-06-30 13:50:21,697]: Saved Histplot for "poutcome" column at: histplots/poutcome_histplot.png
+[2023-06-30 13:50:22,412]: Saved Histplot for "deposit" column at: histplots/deposit_histplot.png
+[2023-06-30 13:50:23,808]: Heatmap for Data Saved at : "heatplot.jpg"
+[2023-06-30 13:50:36,465]: Created PairPlot for :['age', 'job', 'balance', 'duration', 'deposit']
+[2023-06-30 13:50:36,466]: PairPlot saved at : pairplot.png
+[2023-06-30 13:50:40,132]: Applying feature scaling to column: ['age', 'job', 'balance', 'duration', 'deposit']
+[2023-06-30 13:50:40,139]: Feature Scaling Succesfull
+[2023-06-30 13:50:40,237]: Created X_train, y_train, X_test, y_test dataframes with 80:20 ratio
